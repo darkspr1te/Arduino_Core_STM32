@@ -1286,6 +1286,7 @@ Genericflight.menu.upload_method.dfuoMethod.upload.altID=1
 Genericflight.menu.upload_method.dfuoMethod.build.flash_offset=0x5000
 Genericflight.menu.upload_method.dfuoMethod.build.bootloader_flags=-DBL_LEGACY_LEAF -DVECT_TAB_OFFSET={build.flash_offset}
 
+<<<<<<< HEAD
 ################################################################################
 # Midatronics boards
 
@@ -1329,6 +1330,8 @@ Midatronics.menu.upload_method.dfuMethod.upload.protocol=2
 Midatronics.menu.upload_method.dfuMethod.upload.options=-g
 Midatronics.menu.upload_method.dfuMethod.upload.tool=stm32CubeProg
 
+=======
+>>>>>>> 89588a3f043d45be0d19df963f0e20e945e0bc9d
 ################################################################################
 # Serialx activation
 Nucleo_144.menu.xserial.generic=Enabled (generic 'Serial')
@@ -1409,12 +1412,15 @@ Genericflight.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERI
 Genericflight.menu.xserial.disabled=Disabled (no Serial support)
 Genericflight.menu.xserial.disabled.build.xSerial=
 
+<<<<<<< HEAD
 Midatronics.menu.xserial.generic=Enabled (generic 'Serial')
 Midatronics.menu.xserial.none=Enabled (no generic 'Serial')
 Midatronics.menu.xserial.none.build.xSerial=-DHAL_UART_MODULE_ENABLED -DHWSERIAL_NONE
 Midatronics.menu.xserial.disabled=Disabled (No Serial support)
 Midatronics.menu.xserial.disabled.build.xSerial=
 
+=======
+>>>>>>> 89588a3f043d45be0d19df963f0e20e945e0bc9d
 # USB connectivity
 Nucleo_144.menu.usb.none=None
 Nucleo_144.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
@@ -1555,6 +1561,7 @@ Genericflight.menu.xusb.HS.build.usb_speed=-DUSE_USB_HS
 Genericflight.menu.xusb.HSFS=High Speed in Full Speed mode
 Genericflight.menu.xusb.HSFS.build.usb_speed=-DUSE_USB_HS -DUSE_USB_HS_IN_FS
 
+<<<<<<< HEAD
 Midatronics.menu.usb.none=None
 Midatronics.menu.usb.CDCgen=CDC (generic 'Serial' supersede U(S)ART)
 Midatronics.menu.usb.CDCgen.build.enable_usb={build.usb_flags} -DUSBD_USE_CDC
@@ -1568,6 +1575,8 @@ Midatronics.menu.xusb.HS.build.usb_speed=-DUSE_USB_HS
 Midatronics.menu.xusb.HSFS=High Speed in Full Speed mode
 Midatronics.menu.xusb.HSFS.build.usb_speed=-DUSE_USB_HS -DUSE_USB_HS_IN_FS
 
+=======
+>>>>>>> 89588a3f043d45be0d19df963f0e20e945e0bc9d
 # Optimizations
 Nucleo_144.menu.opt.osstd=Smallest (-Os default)
 Nucleo_144.menu.opt.oslto=Smallest (-Os) with LTO
@@ -1805,6 +1814,7 @@ Genericflight.menu.opt.o3lto.build.flags.optimize=-O3 -flto
 Genericflight.menu.opt.ogstd=Debug (-g)
 Genericflight.menu.opt.ogstd.build.flags.optimize=-g -Og
 
+<<<<<<< HEAD
 Midatronics.menu.opt.osstd=Smallest (-Os default)
 Midatronics.menu.opt.oslto=Smallest (-Os) with LTO
 Midatronics.menu.opt.oslto.build.flags.optimize=-Os -flto
@@ -1823,6 +1833,8 @@ Midatronics.menu.opt.o3lto.build.flags.optimize=-O3 -flto
 Midatronics.menu.opt.ogstd=Debug (-g)
 Midatronics.menu.opt.ogstd.build.flags.optimize=-g -Og
 
+=======
+>>>>>>> 89588a3f043d45be0d19df963f0e20e945e0bc9d
 # C Runtime Library
 Nucleo_144.menu.rtlib.nano=Newlib Nano (default)
 Nucleo_144.menu.rtlib.nanofp=Newlib Nano + Float Printf
@@ -1953,6 +1965,7 @@ Genericflight.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
 Genericflight.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
 Genericflight.menu.rtlib.full=Newlib Standard
 Genericflight.menu.rtlib.full.build.flags.ldspecs=
+<<<<<<< HEAD
 
 Midatronics.menu.rtlib.nano=Newlib Nano (default)
 Midatronics.menu.rtlib.nanofp=Newlib Nano + Float Printf
@@ -1963,3 +1976,5 @@ Midatronics.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
 Midatronics.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
 Midatronics.menu.rtlib.full=Newlib Standard
 Midatronics.menu.rtlib.full.build.flags.ldspecs=
+=======
+>>>>>>> 89588a3f043d45be0d19df963f0e20e945e0bc9d
